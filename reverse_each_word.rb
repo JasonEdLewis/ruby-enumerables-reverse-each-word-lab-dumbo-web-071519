@@ -5,5 +5,5 @@ reversed_words = " "
 words_arr.each do |word|
   reversed_words += word.reverse
 end
-reversed_words
+reversed_words.join(" ")
 end
