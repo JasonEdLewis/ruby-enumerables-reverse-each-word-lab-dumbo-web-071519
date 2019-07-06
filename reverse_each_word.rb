@@ -10,6 +10,6 @@ end
 
 def reverse_each_words(string)
 words_arr = string.split(" ")
-words_arr.collect{|word| word.reverse}
-words_arr.join(" ")
+reversed = words_arr.collect{|word| word.reverse}
+reversed.join(" ")
 end
